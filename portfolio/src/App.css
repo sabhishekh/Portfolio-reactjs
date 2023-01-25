@@ -1,0 +1,20 @@
+.App-header {
+  background-image: url('Hacking4.jpg');
+ 
+}
+
+.cards-cantainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width:500)and (min-width:300px) {
+  .cards-cantainer{
+    margin: 10px 50px;
+ }
+}
+
+
+
+
