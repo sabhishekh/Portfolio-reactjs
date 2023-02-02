@@ -1,0 +1,36 @@
+
+ 
+
+
+
+
+
+
+
+
+
+.App-header {
+  background-image: url('../src/image/Hacking4.jpg');
+
+ 
+}
+.Cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+ @media (min-width:320px) and (max-width:600px){
+  .Cards{
+    margin:10px 20px;
+  
+  }
+  .App-header{
+    background-size: 100%;
+  }
+  
+
+
+ }
+ 
