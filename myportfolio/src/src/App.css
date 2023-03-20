@@ -1,0 +1,43 @@
+
+ 
+
+
+
+
+
+
+
+
+
+.App-header {
+  background-color:whitesmoke;
+
+ 
+}
+.Cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+ @media (min-width:320px) and (max-width:600px){
+ 
+  .App-header{
+    background-size: 100%;
+    overflow: hidden;
+  }
+  
+
+
+ }
+ 
+  
+  
+  
+  
+
+
+
+
+

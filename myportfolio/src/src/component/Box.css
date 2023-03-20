@@ -1,0 +1,199 @@
+.main-heading{
+    display:flex;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+   
+}
+.cantainer{
+    color:chartreuse;
+    margin:20px 20px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+
+    }
+.info{
+    font-size: 28px;
+
+    color:lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1{
+    border-radius: 10%;
+    box-shadow: 1px 5px 2px 5px;
+    cursor: pointer;
+}
+.main-info{
+    border:1px solid  silver;
+    width:400px;
+    height:350px;
+    margin-left:-250px;
+    justify-content: center;
+    align-items: center;
+
+}
+.img2{
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+.btn-n{
+    background-color: black;
+    color: blue;
+    border-radius: 10px;
+
+
+}
+.personal-info{
+    align-items: center;
+    color: blueviolet;
+    
+}
+p{
+    font-size: 20px;
+    color:wheat;
+}
+@media (min-width:320px) and (max-width:600px)
+{
+.cantainer{
+    margin-left: -207px;
+    font-size: 25px;
+    overflow: hidden;
+}
+.info{
+    font-size: 13px;
+    margin-left:-22px;
+
+
+
+
+
+}
+
+.img1{
+    margin-left: -254px;
+}
+.Self-intro{
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-n{
+    margin: 10px 30px;
+}
+.Main-Heading{
+    font-size: 20px;
+}
+
+
+
+}
+.btn3{
+    width:183px;
+    height:54px;
+    color:greenyellow;
+    font-weight: bold;
+    font-size: 18px;
+    background-color:blueviolet;
+    border-radius: 10px;
+    border: 1px solid;
+    margin:10px;
+
+}
+.btn3:hover{
+    background-color:black;
+}
+a.link1{
+ border: 3px solid white ;
+ text-decoration: none;
+ color: chartreuse;
+ border-radius: 5px;
+ 
+}
+a.link1:hover{
+    background-color: blueviolet;
+}
+
+a.link2{
+    border: 3px solid white ;
+    text-decoration: none;
+    color: chartreuse;
+    border-radius: 5px;
+    margin: 20px;
+   }
+   a.link2:hover{
+       background-color: blueviolet;
+   }
+   .Resume{
+    border: 2px solid;
+   color:blueviolet;
+   text-decoration: none;
+   font-size: 30px;
+   border-radius: 5px;
+   background-color: black;
+margin:30px 0px;
+
+   }
+   .Resume:hover{
+    background-color: aqua;
+   }
+.mains-cantainer{
+    background-color: black;
+
+}
+   .Icon-1{
+    font-size: 2rem;
+    margin: 30px 15px;
+    
+    
+   } 
+.Icon-2{
+    font-size: 2rem;
+  margin: 30px 15px;
+
+}
+.Icon-3{
+    font-size: 2rem;
+    margin: 30px 15px;
+    color: bisque;
+    
+}
+.Self-intro{
+    color: whitesmoke;
+   
+    text-decoration:underline cornsilk;
+}
+.Self-intro::first-letter{
+    color: brown;
+}
+.Main-Heading{
+    text-decoration: underline whitesmoke;
+
+}
+.main-name{
+    border: 1px solid silver;
+    width: 250px;
+    height:45px;
+    margin: 40px 71px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 35px;
+    color: cornflowerblue;
+}
+.main-name:hover{
+    background-color: greenyellow;
+}
+.About-section{
+    color:lightpink;
+    list-style: none;
+    font-size: 15px;
+}
